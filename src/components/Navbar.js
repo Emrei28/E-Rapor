@@ -42,7 +42,7 @@ export default function Navbar() {
               Kontak
             </Link>
             <Link
-              href="https://app.raportdigital.com/login"
+              href="https://rafordigital.netlify.app/"
               className="bg-sky-600 text-white px-4 py-2 rounded-lg hover:bg-sky-700 transition duration-300"
             >
               Login
@@ -95,7 +95,7 @@ export default function Navbar() {
               Kontak
             </Link>
             <Link
-              href="https://app.raportdigital.com/login"
+              href="https://rafordigital.netlify.app/"
               className="bg-sky-600 text-white px-4 py-2 rounded-lg hover:bg-sky-700 transition duration-300"
               onClick={closeMenu}
             >
