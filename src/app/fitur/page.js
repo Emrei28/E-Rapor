@@ -1,7 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChalkboardTeacher, faBookOpen, faSchool, faTable, faUsers, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import FAQSection from '@/components/FAQSection';
-import { metadata } from './metadata';
+
+export { metadata } from './metadata';
 
 export default function Fitur() {
   return (
