@@ -22,29 +22,29 @@ export default function Fitur() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-gray-900" data-aos="fade-up">Mengapa Memilih Raport Digital?</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white p-6 rounded-xl border-2 border-sky-200 shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-right" data-aos-delay="100">
-              <FontAwesomeIcon icon={faChalkboardTeacher} className="fa-icon mb-4 mx-auto" />
+            <div className="bg-white p-6 rounded-xl border-2 border-sky-200 shadow-lg transition-transform duration-300" data-aos="fade-right" data-aos-delay="100">
+              <FontAwesomeIcon icon={faChalkboardTeacher} className="text-sky-600 mb-4 mx-auto" />
               <h3 className="text-2xl font-semibold text-gray-900 text-center mb-2">Manajemen Data Kelas</h3>
               <p className="text-gray-600 text-center">
                 Atur data kelas dengan mudah, termasuk nama kelas, wali kelas, dan data siswa seperti NISN, dalam satu platform terpusat.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-xl border-2 border-sky-200 shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-left" data-aos-delay="100">
-              <FontAwesomeIcon icon={faBookOpen} className="fa-icon mb-4 mx-auto" />
+            <div className="bg-white p-6 rounded-xl border-2 border-sky-200 shadow-lg transition-transform duration-300" data-aos="fade-left" data-aos-delay="100">
+              <FontAwesomeIcon icon={faBookOpen} className="text-sky-600 mb-4 mx-auto" />
               <h3 className="text-2xl font-semibold text-gray-900 text-center mb-2">Manajemen Mata Pelajaran & Bab</h3>
               <p className="text-gray-600 text-center">
                 Susun data mata pelajaran dan bab dengan rapi, memudahkan perencanaan dan pelacakan pembelajaran.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-xl border-2 border-sky-200 shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-right" data-aos-delay="200">
-              <FontAwesomeIcon icon={faSchool} className="fa-icon mb-4 mx-auto" />
+            <div className="bg-white p-6 rounded-xl border-2 border-sky-200 shadow-lg transition-transform duration-300" data-aos="fade-right" data-aos-delay="200">
+              <FontAwesomeIcon icon={faSchool} className="text-sky-600 mb-4 mx-auto" />
               <h3 className="text-2xl font-semibold text-gray-900 text-center mb-2">Manajemen Data Sekolah</h3>
               <p className="text-gray-600 text-center">
                 Kelola semua data sekolah dalam sistem yang aman dan terorganisir, dari profil hingga laporan.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-xl border-2 border-sky-200 shadow-lg hover:scale-105 transition-transform duration-300" data-aos="fade-left" data-aos-delay="200">
-              <FontAwesomeIcon icon={faTable} className="fa-icon mb-4 mx-auto" />
+            <div className="bg-white p-6 rounded-xl border-2 border-sky-200 shadow-lg transition-transform duration-300" data-aos="fade-left" data-aos-delay="200">
+              <FontAwesomeIcon icon={faTable} className="text-sky-600 mb-4 mx-auto" />
               <h3 className="text-2xl font-semibold text-gray-900 text-center mb-2">Input Nilai Otomatis & Ekspor PDF</h3>
               <p className="text-gray-600 text-center">
                 Input nilai dengan tabel interaktif yang otomatis menghitung rata-rata. Simpan, edit, dan cetak raport PDF profesional dengan sekali klik.
@@ -60,17 +60,17 @@ export default function Fitur() {
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-gray-900" data-aos="fade-up">Dampak Raport Digital</h2>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             <div className="bg-sky-50 p-6 rounded-xl border-2 border-sky-200 shadow-lg" data-aos="zoom-in" data-aos-delay="100">
-              <FontAwesomeIcon icon={faUsers} className="fa-icon mb-4 mx-auto" />
+              <FontAwesomeIcon icon={faUsers} className="text-sky-600 mb-4 mx-auto" />
               <h3 className="text-2xl font-bold text-gray-900 text-center mb-2">1000+</h3>
               <p className="text-gray-600 text-center">Guru menggunakan Raport Digital</p>
             </div>
             <div className="bg-sky-50 p-6 rounded-xl border-2 border-sky-200 shadow-lg" data-aos="zoom-in" data-aos-delay="200">
-              <FontAwesomeIcon icon={faSchool} className="fa-icon mb-4 mx-auto" />
+              <FontAwesomeIcon icon={faSchool} className="text-sky-600 mb-4 mx-auto" />
               <h3 className="text-2xl font-bold text-gray-900 text-center mb-2">500+</h3>
               <p className="text-gray-600 text-center">Sekolah terhubung</p>
             </div>
             <div className="bg-sky-50 p-6 rounded-xl border-2 border-sky-200 shadow-lg" data-aos="zoom-in" data-aos-delay="300">
-              <FontAwesomeIcon icon={faFileAlt} className="fa-icon mb-4 mx-auto" />
+              <FontAwesomeIcon icon={faFileAlt} className="text-sky-600 mb-4 mx-auto" />
               <h3 className="text-2xl font-bold text-gray-900 text-center mb-2">10K+</h3>
               <p className="text-gray-600 text-center">Raport dihasilkan</p>
             </div>

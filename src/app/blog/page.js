@@ -1,7 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faNewspaper } from '@fortawesome/free-solid-svg-icons';
-import { metadata } from './metadata';
+import { metadata as pageMetadata } from './metadata'; // Ganti nama untuk menghindari konflik
 import posts from '@/data/posts.json';
+
+// Ekspor metadata
+export const metadata = pageMetadata;
 
 export default function Blog() {
   return (
@@ -26,7 +29,7 @@ export default function Blog() {
                 key={index}
                 className="bg-white p-6 rounded-xl border-2 border-sky-200 shadow-lg hover:scale-105 transition-transform duration-300"
                 data-aos="zoom-in-up"
-                data-aos-delay={index * 100} // Menambahkan penundaan yang berbeda untuk setiap postingan
+                data-aos-delay={index * 100}
               >
                 <FontAwesomeIcon icon={faNewspaper} className="text-sky-600 w-20 h-20 mb-4" />
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{post.title}</h3>

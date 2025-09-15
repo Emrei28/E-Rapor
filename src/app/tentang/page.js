@@ -85,7 +85,7 @@ export default function Tentang() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-gray-900" data-aos="fade-up">Apa Kata Pengguna Kami</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="flip-up" data-aos-delay="100">
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="100">
               <FontAwesomeIcon icon={faQuoteLeft} className="text-sky-600 text-lg w-5 h-5 mb-4" />
               <p className="text-gray-600 mb-4 italic">
                 &quot;Raport Digital sangat memudahkan saya mengelola nilai siswa. Antarmukanya intuitif dan hemat waktu!&quot;
@@ -103,7 +103,7 @@ export default function Tentang() {
                 ))}
               </div>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="flip-up" data-aos-delay="200">
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="200">
               <FontAwesomeIcon icon={faQuoteLeft} className="text-sky-600 text-lg w-5 h-5 mb-4" />
               <p className="text-gray-600 mb-4 italic">
                 &quot;Mencetak raport dalam format PDF jadi sangat mudah. Desainnya profesional dan rapi.&quot;
@@ -121,7 +121,7 @@ export default function Tentang() {
                 ))}
               </div>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="flip-up" data-aos-delay="300">
+            <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300" data-aos="fade-up" data-aos-delay="300">
               <FontAwesomeIcon icon={faQuoteLeft} className="text-sky-600 text-lg w-5 h-5 mb-4" />
               <p className="text-gray-600 mb-4 italic">
                 &quot;Keamanan data siswa terjamin, dan saya bisa fokus mengajar tanpa khawatir administrasi.&quot;

@@ -163,7 +163,7 @@ export default function Home() {
                 <FontAwesomeIcon icon={faPencilAlt} className="text-blue-600 w-8 h-8" />
               </div>
               <p className="font-semibold text-lg text-gray-900 mb-1">Input Nilai</p>
-              <p className="text-gray-600 max-w-xs">Masukkan nilai siswa Anda melalui antarmuka yang intuitif.</p>
+              <p className="text-gray-600 max-w-xs">Masukkan data Kelas, Mapel dan Sekolah anda. Input nilai siswa Anda melalui antarmuka yang intuitif.</p>
             </div>
             
             {/* Step 3 */}
