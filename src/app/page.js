@@ -70,7 +70,7 @@ export default function Home() {
       {/* Trust Section */}
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl font-bold mb-12 text-gray-900" data-aos="fade-up">Selalu Berusaha Memberi Solusi Terbaik</h2>
+          <h2 className="text-2xl font-bold mb-12 text-gray-900" data-aos="fade-up">Berusaha Memberi Solusi Terbaik</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 items-center justify-center">
             <Image
               src="https://images.pexels.com/photos/10643471/pexels-photo-10643471.jpeg"

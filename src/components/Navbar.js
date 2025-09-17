@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import Image from 'next/image'; // Baris ini harus ditambahkan
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,14 +33,15 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="group flex items-center space-x-2 relative overflow-hidden">
-              <div className="absolute inset-0 z-0 bg-sky-600 rounded-full blur-xl opacity-10 group-hover:opacity-20 transition duration-500"></div>
               <div className="z-10 flex items-center space-x-2">
-                <svg className="h-8 w-8 text-sky-600 group-hover:animate-pulse transition duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.835 5.485 10 3.75 10 3.75s-.835 1.735-2 2.503L6 8.5v5.5a4 4 0 004 4h4a4 4 0 004-4V8.5L14 6.253z"/>
-                </svg>
-                <span className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-600 via-indigo-500 to-purple-600 transition-colors duration-300 group-hover:from-sky-500 group-hover:to-purple-500">
-                  EMREI
-                </span>
+                {/* Bagian ini telah diganti dengan komponen Image */}
+                <Image
+                  src="/images/Brand.png" // Ganti dengan nama file logo Anda di folder public
+                  alt="EMREI Logo"
+                  width={70} // Sesuaikan lebar logo
+                  height={2} // Sesuaikan tinggi logo
+                  className="group-hover:animate-pulse transition duration-300"
+                />
               </div>
             </Link>
           </div>
