@@ -35,10 +35,10 @@ export default function Home() {
             {/* Konten Teks */}
             <div className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0" data-aos="fade-right">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight drop-shadow-lg" data-aos="fade-up" data-aos-delay="100">
-                Kelola Nilai Lebih Mudah dari Sebelumnya
+                Aplikasi rapor digital modern untuk guru
               </h1>
               <p className="text-lg sm:text-xl mb-8 max-w-md mx-auto lg:mx-0 drop-shadow-md" data-aos="fade-up" data-aos-delay="200">
-                Aplikasi raport digital modern untuk guru. Sederhanakan pekerjaan, hemat waktu, dan hasilkan raport PDF profesional.
+                Permudah pengelolaan nilai, hemat waktu, dan cetak raport PDF profesional.
               </p>
               <a
                 href="https://e-rapor.emrei.id"
@@ -141,38 +141,53 @@ export default function Home() {
       </section>
 
       {/* Bagaimana Cara Kerjanya Section */}
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-gray-900" data-aos="fade-up">Bagaimana Cara Kerjanya?</h2>
+      <section 
+        className="relative py-16 text-white overflow-hidden" 
+        style={{
+          backgroundImage: "url('https://images.pexels.com/photos/10638075/pexels-photo-10638075.jpeg')", 
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        {/* Ini adalah lapisan yang membuat teks lebih mudah dibaca */}
+        <div className="absolute inset-0 bg-blue-900 opacity-80"></div>
+        
+        {/* KONTEN UTAMA - Harus berada di atas overlay */}
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10"> {/* Ditambahkan: 'relative' dan 'z-10' */}
+          <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-white" data-aos="fade-up">Bagaimana Cara Kerjanya?</h2>
           <div className="relative flex flex-col md:flex-row items-center justify-between gap-12">
             {/* Horizontal Line */}
-            <div className="hidden md:block absolute top-8 left-12 right-12 h-1 bg-blue-300 transform -translate-y-1/2 -z-10"></div>
+            {/* Warna garis diubah menjadi putih untuk kontras */}
+            <div className="hidden md:block absolute top-8 left-12 right-12 h-1 bg-white opacity-50 transform -translate-y-1/2 -z-10"></div>
             
             {/* Step 1 */}
             <div className="flex flex-col items-center z-10" data-aos="fade-up" data-aos-delay="100">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+              {/* Warna latar belakang lingkaran diubah untuk kontras */}
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-4">
                 <FontAwesomeIcon icon={faUserCircle} className="text-blue-600 w-8 h-8" />
               </div>
-              <p className="font-semibold text-lg text-gray-900 mb-1">Daftar & Login</p>
-              <p className="text-gray-600 max-w-xs">Buat akun Anda atau masuk ke platform kami dengan mudah.</p>
+              <p className="font-semibold text-lg text-white mb-1">Daftar & Login</p>
+              <p className="text-gray-200 max-w-xs">Buat akun Anda atau masuk ke platform kami dengan mudah.</p>
             </div>
             
             {/* Step 2 */}
             <div className="flex flex-col items-center z-10" data-aos="fade-up" data-aos-delay="200">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+              {/* Warna latar belakang lingkaran diubah untuk kontras */}
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-4">
                 <FontAwesomeIcon icon={faPencilAlt} className="text-blue-600 w-8 h-8" />
               </div>
-              <p className="font-semibold text-lg text-gray-900 mb-1">Input Nilai</p>
-              <p className="text-gray-600 max-w-xs">Masukkan data Kelas, Mapel dan Sekolah anda. Input nilai siswa Anda melalui antarmuka yang intuitif.</p>
+              <p className="font-semibold text-lg text-white mb-1">Input Nilai</p>
+              <p className="text-gray-200 max-w-xs">Masukkan data Kelas, Mapel dan Sekolah anda. Input nilai siswa Anda melalui antarmuka yang intuitif.</p>
             </div>
             
             {/* Step 3 */}
             <div className="flex flex-col items-center z-10" data-aos="fade-up" data-aos-delay="300">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+              {/* Warna latar belakang lingkaran diubah untuk kontras */}
+              <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-4">
                 <FontAwesomeIcon icon={faCheckCircle} className="text-blue-600 w-8 h-8" />
               </div>
-              <p className="font-semibold text-lg text-gray-900 mb-1">Cetak Raport</p>
-              <p className="text-gray-600 max-w-xs">Selesai! Cetak raport dalam format PDF yang siap dibagikan.</p>
+              <p className="font-semibold text-lg text-white mb-1">Cetak Raport</p>
+              <p className="text-gray-200 max-w-xs">Selesai! Cetak raport dalam format PDF yang siap dibagikan.</p>
             </div>
           </div>
         </div>

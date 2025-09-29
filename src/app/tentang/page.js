@@ -71,9 +71,7 @@ export default function Tentang() {
           <div data-aos="fade-right">
             <h2 className="text-3xl font-bold mb-4 text-sky-700">Visi</h2>
             <p className="text-lg leading-relaxed">
-              Menjadi platform pendidikan digital terdepan yang mendukung guru
-              untuk fokus pada hal terpenting: mengajar dan mendidik generasi
-              penerus bangsa.
+              Mewujudkan sistem pendidikan modern yang efisien, transparan, dan berfokus pada kualitas belajar mengajar.
             </p>
           </div>
           <div data-aos="fade-left">
