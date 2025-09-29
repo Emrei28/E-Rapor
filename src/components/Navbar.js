@@ -60,7 +60,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="http://e-rapor.emrei.id"
+              href="https://e-rapor.emrei.id/"
               className="bg-sky-600 text-white px-4 py-2 rounded-lg hover:bg-sky-700 transition duration-300"
             >
               Login
@@ -91,7 +91,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="http://e-rapor.emrei.id"
+              href="https://e-rapor.emrei.id/"
               className="bg-sky-600 text-white px-4 py-2 rounded-lg hover:bg-sky-700 transition duration-300"
               onClick={closeMenu}
             >
