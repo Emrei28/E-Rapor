@@ -179,7 +179,7 @@ export default function Tentang() {
             Jadilah bagian dari revolusi penilaian pendidikan yang mudah dan efisien.
           </p>
           <a
-            href="https://rafordigital.netlify.app/"
+            href="https://e-rapor.emrei.id/"
             className="inline-block bg-sky-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-sky-700 hover:scale-105 transition duration-300"
             data-aos="zoom-in" data-aos-delay="100"
           >

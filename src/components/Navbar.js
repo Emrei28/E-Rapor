@@ -60,7 +60,7 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="https://rafordigital.netlify.app/"
+              href="http://e-rapor.emrei.id"
               className="bg-sky-600 text-white px-4 py-2 rounded-lg hover:bg-sky-700 transition duration-300"
             >
               Login

@@ -41,7 +41,7 @@ export default function Home() {
                 Aplikasi raport digital modern untuk guru. Sederhanakan pekerjaan, hemat waktu, dan hasilkan raport PDF profesional.
               </p>
               <a
-                href="https://rafordigital.netlify.app/"
+                href="https://e-rapor.emrei.id"
                 className="inline-block bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition duration-300 shadow-xl transform hover:scale-105"
                 data-aos="fade-up" data-aos-delay="300"
               >
@@ -207,7 +207,7 @@ export default function Home() {
                   <span>Dukungan komunitas</span>
                 </li>
               </ul>
-              <a href="https://rafordigital.netlify.app/" className="mt-auto block w-full bg-gray-200 text-gray-800 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 transition duration-300">
+              <a href="https://e-rapor.emrei.id" className="mt-auto block w-full bg-gray-200 text-gray-800 px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 transition duration-300">
                 Mulai Gratis
               </a>
             </div>
@@ -238,7 +238,7 @@ export default function Home() {
                   <span>Dukungan prioritas</span>
                 </li>
               </ul>
-              <a href="https://app.raportdigital.com/login" className="mt-auto block w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">
+              <a href="https://e-rapor.emrei.id" className="mt-auto block w-full bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition duration-300">
                 Pilih Paket Ini
               </a>
             </div>

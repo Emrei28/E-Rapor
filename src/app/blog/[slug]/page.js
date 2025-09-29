@@ -62,7 +62,7 @@ export default function Post({ params }) {
             Mulai pengalaman penilaian modern dengan Raport Digital. Coba gratis sekarang!
           </p>
           <a
-            href="https://rafordigital.netlify.app/"
+            href="https://e-rapor.emrei.id/"
             className="inline-block bg-sky-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-sky-700 hover:scale-105 transition duration-300"
           >
             Coba Gratis Sekarang
