@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Fitur - Raport Digital',
+  title: 'Fitur - Emrei',
   description: 'Jelajahi fitur canggih Raport Digital: kelola data kelas, mata pelajaran, sekolah, input nilai otomatis, dan FAQ untuk guru.',
   keywords: 'raport digital, fitur, input nilai, data kelas, data sekolah, mata pelajaran, tabel nilai, PDF, statistik, FAQ',
   openGraph: {

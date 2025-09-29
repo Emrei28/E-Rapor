@@ -5,7 +5,7 @@ import { ValueCard } from '@/components/ValueCard';
 import {faCheckCircle} from "@fortawesome/free-solid-svg-icons";
 
 export const metadata = {
-  title: 'Tentang - Raport Digital',
+  title: 'Tentang - Emrei',
   description: 'Temukan cerita, visi, dan testimoni pengguna Raport Digital, solusi penilaian modern untuk pendidikan.',
   keywords: 'raport digital, tentang kami, aplikasi penilaian, guru, sekolah, testimoni',
   openGraph: {

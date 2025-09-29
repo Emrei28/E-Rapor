@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPencilAlt, faFilePdf, faLock, faUserCircle, faCheckCircle, faStar, faQuoteLeft, faCheck } from '@fortawesome/free-solid-svg-icons';
 
 export const metadata = {
-  title: 'Beranda - Raport Digital',
+  title: 'Beranda - Emrei',
   description: 'Aplikasi raport digital untuk guru, memudahkan input nilai dan cetak PDF.',
   keywords: 'raport digital, aplikasi penilaian, guru, sekolah, PDF',
   openGraph: {
@@ -196,11 +196,11 @@ export default function Home() {
               <ul className="text-left w-full space-y-3 mb-8">
                 <li className="flex items-center text-gray-600">
                   <FontAwesomeIcon icon={faCheck} className="text-green-500 w-4 h-4 mr-2" />
-                  <span>Input nilai hingga 10 siswa</span>
+                  <span>Input nilai siswa tanpa batas</span>
                 </li>
                 <li className="flex items-center text-gray-600">
                   <FontAwesomeIcon icon={faCheck} className="text-green-500 w-4 h-4 mr-2" />
-                  <span>Cetak raport PDF</span>
+                  <span>Cetak raport hingga 10 PDF</span>
                 </li>
                 <li className="flex items-center text-gray-600">
                   <FontAwesomeIcon icon={faCheck} className="text-green-500 w-4 h-4 mr-2" />
@@ -215,15 +215,15 @@ export default function Home() {
             {/* Premium Plan */}
             <div className="bg-white p-8 rounded-lg shadow-xl border-2 border-blue-600 flex flex-col items-center" data-aos="zoom-in" data-aos-delay="200">
               <h3 className="text-2xl font-bold mb-2 text-blue-600">Paket Premium</h3>
-              <p className="text-gray-600 mb-4">Paling populer untuk sekolah kecil</p>
+              <p className="text-gray-600 mb-4">Paling populer untuk sekolah kecil hingga menengah</p>
               <div className="mb-6">
-                <span className="text-5xl font-extrabold text-blue-600">Rp 100rb</span>
-                <span className="text-gray-600">/bulan</span>
+                <span className="text-5xl font-extrabold text-blue-600">Mulai Rp 50rb</span>
+                {/* <span className="text-gray-600">/bulan</span> */}
               </div>
               <ul className="text-left w-full space-y-3 mb-8">
                 <li className="flex items-center text-gray-600">
                   <FontAwesomeIcon icon={faCheck} className="text-green-500 w-4 h-4 mr-2" />
-                  <span>Input nilai hingga 100 siswa</span>
+                  <span>Input nilai siswa tanpa batas</span>
                 </li>
                 <li className="flex items-center text-gray-600">
                   <FontAwesomeIcon icon={faCheck} className="text-green-500 w-4 h-4 mr-2" />

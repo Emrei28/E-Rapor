@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Blog - Raport Digital',
+  title: 'Blog - Emrei',
   description: 'Baca artikel, tips, dan panduan terbaru tentang penilaian sekolah modern dan teknologi pendidikan di Raport Digital.',
   keywords: 'blog raport digital, penilaian sekolah, teknologi pendidikan, tips guru',
   openGraph: {
